@@ -44,8 +44,13 @@ a{
 }
 
 .section-1 a{
-    font-size: 1.5rem;
+    /*font-size: 1.5rem;*/
     padding: 10px;
+}
+
+#main-content {
+    text-align: left;
+    padding: 10vh;
 }
 
 /* section 2 */

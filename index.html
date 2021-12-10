@@ -14,17 +14,59 @@
             <i class="far fa-9x fa-chart-bar"></i>
             <h2>Know NYC Parks</h2>
             <h3>Analyzing and Visualizing NYC Parks Crimes Statistics</h3>
+
+            <div id="main-content">
+            <h2>Overview</h2>
+            <p><b>Know NYC Parks</b> is about visualizing NYPD's NYC Parks Crime Statistics using Pandas, Matplotlib and Seaborn.</p>
+
+            <h2>Data</h2>
+            The two datasets for this project are:
+
+            <ul>
+                <li><b>NYPD's NYC Parks Crime Statistics.</b> The data collected spans
+                    from the third of 2014 up to 2021, with the data spread out into four quarters for years into individual files per
+                quarter.</li>
+                <li><b>Open Spaces (NYC Parks) Geodata.</b> The location of each park in the NYPD statistics, alongside the number of crimes per year. 
+</li>
+            </ul>
+
+            <h2>Techniques</h2>
+            
+            The first technique I used for this project was cleaning up the NYPD data. Then I maded some calculations such as number of crimes committed in park, alongside a breakdown into the major seven complaints making up the total per year, average number of crimes committed in a park, most common crime committed in a park, etc. All this will make the data easier to visualize with graphs and charts, and thus more meaningful. 
+            
+            The bar plots were created using Matplotlib and Seaborn.
+            
+            <h2>Next Step</h2>
+
+            Originally the project's aim was to use NYPD's NYC Parks Crime Statistics alongside the GeoJSON data for NYC parks to create an interactive map and data visualizations (e.g., bar plots, line graphs, etc), however I couldn't achieve this goal because I misjudged the magnitude of such project. 
+
+            The following are some of the next steps to improve the project and reach the goal:
+            
+            <ul>
+            <li>A GeoJSON file with all the parks and the total number of crimes that occurred in it for the period 2014-2021, with OpenStreetMap for the maps.</li>
+            <li>Two CSV files for the number of crimes per year for each park and a breakdown of the seven different crime categories used by NYPD.</li>
+            <li>A CSV file for each park with the total number of crimes for a specific year in the range 2014-2021.</li>
+            </ul>
+
+            <h2>References</h2>
+            <ul>
+            <li><a href="https://www1.nyc.gov/site/nypd/stats/crime-statistics/park-crime-stats.page">NYC Parks Crime Statistics</a></li>
+            <li><a href="https://data.cityofnewyork.us/Recreation/Open-Space-Parks-/g84h-jbjm">Open Space (NYC Parks) Geodata</a></li>
+            <li><a href="https://github.com/uzluisf/knycparks">Source code and data</a></li>
+            </ul>
+            </div>
         </div>
+
         <div class="section-2">
             <h1>Total Crimes for Bronx Parks</h1>
 
             <p>The following bar plots showcase the total number of crimes over the period 2014-2021 for several Bronx parks. Starting with NYC Parks Crime Statistics</a>, the data was cleaned up using Pandas. Due to the amount of parks, I'm focusing in the first five Bronx parks with highest index of crimes for the year 2014, which are then used for the subsequent years.</p>
 
-            <img src="./images/crotona-park-total.png" alt="Crotona Park Total">
-            <img src="./images/mullaly-park-total.png" alt="Mullaly Park Total">
-            <img src="./images/soundview-park-total.png" alt="Soundview Park Total">
-            <img src="./images/van-cortlandt-park-total.png" alt="Van Cortlandt Park Total">
-            <img src="./images/st-james-park-total.png" alt="St James Park Total">
+            <img src="images/crotona-park-total.png" alt="Crotona Park Total">
+            <img src="images/mullaly-park-total.png" alt="Mullaly Park Total">
+            <img src="images/soundview-park-total.png" alt="Soundview Park Total">
+            <img src="images/van-cortlandt-park-total.png" alt="Van Cortlandt Park Total">
+            <img src="images/st-james-park-total.png" alt="St James Park Total">
         </div>
     </div>
 </body>
