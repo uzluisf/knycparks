@@ -5,6 +5,7 @@ Professor: Katherine St. John
 Date: December 10, 2021
 Description: Code used to clean up the data and generates the graphs.
 URL: https://uzluisf.github.io/knycparks/
+Repo: https://github.com/uzluisf/knycparks
 Resources: NYC Parks Crime Statistics (https://www1.nyc.gov/site/nypd/stats/crime-statistics/park-crime-stats.page), Open Space NYC Parks (https://data.cityofnewyork.us/Recreation/Open-Space-Parks-/g84h-jbjm), Pandas (https://pandas.pydata.org/), Matplotlib (https://matplotlib.org/), seaborn (https://seaborn.pydata.org/)
 """
 import os
